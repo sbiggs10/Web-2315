@@ -1,0 +1,130 @@
+@use "partials/colors";
+@use "vender/normalize";
+
+nav {
+    ul {
+        background-color: colors.$darker-background;
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        li {
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Arial, Helvetica, sans-serif;
+
+            a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 15px 20px;
+                text-decoration: none;
+                font-size: 18px;
+                transition: background-color 0.3s, color 0.3s;
+
+                
+
+            }
+        }
+    }
+}
+
+.selected {
+    text-decoration: underline;
+    margin-left: 500px;
+}
+.name {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: underline;
+    padding: 0px 100px;
+}
+
+section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    article {
+        display: inline-block;
+        width: 670px;
+        margin-top: 100px;
+
+        img {
+            width: 90%;
+            padding: 0% 5%;
+        }
+    }
+}
+
+
+.left {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 45px;
+    color: colors.$secondary-font-color;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+p {
+    padding: 0% 5%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    color: colors.$primary-font-color;
+}
+
+.link {
+    color: colors.$secondary-font-color;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.star {
+    width: 5%;
+    height: 5%;
+    align-content: center;
+    margin: 0% auto;
+    padding-top: 0px;
+}
+
+footer {
+    background-color: colors.$dark-background;
+    margin-top: 250px;
+    margin-bottom: 0%;
+
+}
+
+h4 {
+    padding: 20px 14%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
